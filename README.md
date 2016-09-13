@@ -1,1 +1,0 @@
-# spade-newsroom-cms
