@@ -1,0 +1,37 @@
+.main-div
+  .viz-area
+    .col-sm-12
+      %table.table.table-condensed.spade_tables.spade-listing-table
+        %thead
+          %tr
+            %th Genre
+            %th Value
+            %th
+        %tbody
+          %tr
+          = simple_form_for(@ref_obj, url: reference_lists_path, method: :post, role: "form") do |f|
+            %td= f.input :genre, collection: [["Skills", "skills"],["Toolset", "toolset"]], include_blank: false, label: false, required: true
+            %td= f.input :value, required: true, label: false
+            %td= f.submit 'Add', class: "btn btn-default pull-right"
+      %table.table.table-condensed.spade_tables.spade-listing-table
+        %thead
+          %tr
+            %th Genre
+            %th Value
+            %th
+        %tbody
+          - @ref_list.each do |r|
+            %tr
+              %td= r.genre.titleize
+              %td= r.value
+              %td
+                .table-iconic-link= link_to "Delete", reference_list_path(r),  method: :delete, data: { confirm: 'Are you sure?' }
+  .sidebar
+    .side-bar-content
+      .top-tabs
+        %a{href: descriptions_path}
+          .single-tab.left-tab Data
+        %a{href: permissions_path}
+          .single-tab.right-tab Permission
+        .single-tab.right-tab.active Reference List
+      .description{style: "overflow-y: auto;"}

@@ -1,0 +1,155 @@
+@font-face {font-family: icici_font;src: url("/fonts/TT0178M_.TTF");}
+/*--------*app/views/providerapp/provider/_form.html.haml style*--------*/
+.provider_form .field_lables{
+  font-size: 13px;
+}
+
+.icici_tables{
+  font-size: 12px;
+}
+
+/*--------*app/views/providerapp/providers/index.html.haml style*--------*/
+
+
+.provider-listing-table>tbody>tr>td{
+  padding: 5px 15px;
+}
+
+.provider-listing-table>thead>tr>th{
+  padding: 5px 15px;
+}
+/*--------*all pages - sidebar style*--------*/
+.sidebar_design{
+  font-size: 13px;
+  /*position: fixed;*/
+
+}
+
+.space{
+  height: 10px;
+}
+
+.input-check-box{
+  margin-top: 9px;
+}
+
+.sidebar_design>a{
+  border-radius: 0px !important;
+  padding: 7px 15px;
+}
+
+.sidebar_design:hover{
+  background: #A21B29;
+}
+
+.sidebar_design .active{
+  background: #A21B29 !important;
+  border:1px solid #A21B29 !important;
+  color:white !important;
+}
+
+.col-without-padding{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.col-without-left-padding{
+  padding-left: 0px !important;
+}
+
+.col-without-right-padding{
+  padding-right: 0px !important;
+}
+
+.radio_buttons.form-control{
+  height: auto !important;
+  width: auto !important;
+}
+/*---------------------usefull--------------------*/
+body{font-family: icici_font; word-wrap: break-word;}
+.col-without-padding{padding:0;}
+.less_margin_hr{margin-bottom: 5px;}
+.grey_text{color:grey;}
+.social_btn{padding:5px 15px; color:white;}
+.social_fb_btn:hover{background: #0061a1 ; border: 1px solid #0061a1; color:white;}
+.social_fb_btn{background: #5499C6; border: 1px solid #5499C6; color:white; font-weight: bold; margin:0 5px}
+.social_google_btn:hover{background: #C71204; border: 1px solid #C71204; color:#C71204;}
+.social_google_btn{background: #DE675E; border: 1px solid #DE675E; margin:0 5px; color:white; font-weight: bold; }
+.more_link_style{font-size: 12px;}
+.small_font_px{font-size: 12px;}
+.form-control-checkbox{height: initial !important;width: initial;}
+.icici_textfields{background: transparent; border-radius: 0 !important;}
+.icici_grey_btn{background: #960008; border-radius: 0; padding: 5px 10px;color:white;}
+.icici_grey_btn:hover{background: #243f76; color:white !important;}
+.icici_onclick_red_btn{background: #960008 !important; color:white !important; border-radius: 0px;}
+.icici_red_btn{background: #960008; border-radius: 0; padding: 5px 10px;color:white;}
+.icici_red_btn:hover{background: #243f76; border-radius: 0; padding: 5px 10px;color:white;}
+.light_text{font-size:0.95em; color:#333;}
+.white-badge{background: rgba(255, 255, 255, 0.8) !important; color:#333 !important;}
+
+
+
+
+
+/*--------------sign_in_page----------------*/
+.sign_in_page .remember_me_text{margin-top: 10px;}
+.sign_in_page .sign_in_title{color: #777;}
+.sign_in_page .sharp_edge{border-radius: 0;}
+
+/*--------------change_password_page----------------*/
+.Forgot_password_page .Forgot_password_text{margin-top: 10px;}
+.Forgot_password_page .Forgot_password_title{color: #777;}
+.Forgot_password_page .sharp_edge{border-radius: 0;}
+
+/*--------------Review----------------*/
+
+.review_modal .review_form_modal{width: 90% !important}
+.review_modal .form-label-text{margin-top: 8px; font-size: 0.9em; font-weight: 100 !important;}
+
+/*--------------Provider Show page--------*/
+.provider_reviews .more_review{display: none;}
+.provider_reviews .full_review{display: none;}
+.provider_reviews .icici_header_text{font-size: 1.5em; line-height:0}
+
+/*--------------Feedback Show page--------*/
+.feedback .review-star{cursor: pointer;opacity: .3}
+.feedback .review-star.active, .review-star.hover-active{opacity: 1}
+.feedback .make_more_space {margin-right: 15px}
+.feedback input[type=radio]{margin-right: 5px;}
+.feedback-warning{color: red;margin-top: 8px;font-size: 0.8em;display: none;}
+.feedback.text-right{text-align: right; margin-top: 5px;}
+.feedback .col_without_padding{padding: 0;}
+.feedback .col_without_right_padding{padding-right: 0;}
+.feedback .form_style{border: 1px solid lightgrey; border-radius: 10px; padding: 10px; background-color: #fcfcfc;}
+
+/*Custom CSS*/
+.number-of-rows {
+  margin-left: 10px;
+}
+.less-margin-hr{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.icici-btn-xsm{
+  background: #960008;
+  border-radius: 0;
+  color:white;
+}
+.icici-btn-xsm:hover{
+  background: #243f76;
+  color: white
+}
+.approve-link{
+  font-size: 9px;
+  margin-top: 2px;
+}
+.no-caption{
+  color: grey;
+}
+.cation-text-holder {
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}

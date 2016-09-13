@@ -1,0 +1,57 @@
+.main-div
+  .viz-area
+    = render partial: "layouts/floor_plan.svg"
+  .sidebar
+    .side-bar-content
+      .top-tabs
+        .single-tab.left-tab.active Data
+        %a{href: permissions_path}
+          .single-tab.right-tab Permission
+        %a{href: new_reference_list_path}
+          .single-tab.right-tab Reference List
+      .description
+        .hint{style: "color:white;"} * Click on any of the table to view its data.
+        .slug-title= @filter_data.slug
+        .form-holder
+          = simple_form_for(@desc, url: description_path(seat_id: @seat_id), method: :put, role: "form") do |f|
+            = f.input :seat_id, readonly: true
+            = f.input :hub_description, input_html: {class: "input-textarea"}
+            = f.input :desk_description, input_html: {class: "input-textarea"}
+            = f.input :role_description, input_html: {class: "input-textarea"}
+            = f.input :persona_description, input_html: {class: "input-textarea"}
+            = f.submit 'Save', class: "btn btn-default pull-right"
+
+= javascript_include_tag "viewbox.js"
+:javascript
+  deHighlightAll();
+  autoExpanTextAreas();
+  var seat_id = "#{@desc[:seat_id]}",
+    elem = $("#" + seat_id + " .spade-cms-table"),
+    chair = elem.parent().find(".chair");
+
+  elem.attr("data-bypass", "true");
+  chair.attr('data-bypass', "true");
+
+  elem.attr("data-og-opacity", 1);
+  chair.attr('data-og-opacity', 1);
+
+  elem.attr("opacity", 1);
+  chair.attr("opacity", 1);
+
+
+  $(".spade-cms-table").on('mouseenter', function () {
+    var elem = $(this),
+    chair = elem.parent().find(".chair");
+    elem.attr("opacity", 1);
+    chair.attr("opacity", 1);
+  });
+
+  $(".spade-cms-table").on('mouseleave', function () {
+    deHighlightAll();
+  });
+
+  $(".spade-cms-table").on('click', function () {
+    var element = $(this),
+      g = element.parent('g');
+    window.location.href = base_path + "/descriptions/" + g.attr("id") + "/details"
+  });

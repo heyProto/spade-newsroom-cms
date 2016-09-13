@@ -1,0 +1,299 @@
+@font-face {font-family: spade_font;src: url("/fonts/TT0178M_.TTF");}
+/*--------*app/views/providerapp/provider/_form.html.haml style*--------*/
+
+.navbar-nav {
+  cursor: pointer;
+}
+
+.serif{font-family: Lora,serif;}
+.center{text-align: center;}
+.f11{font-size: 12px; color: gray;}
+.gray{color: gray;}
+.black{color: black;}
+.red{color: #900;}
+.green{color: green;}
+.thin{font-weight: 200;}
+.hint{font-size: 11px; color:gray; margin-bottom: 5px;}
+.float_to_center{margin: 0 auto 25px; float: center; position: relative;}
+.navbar-collapse{padding-left: 0px;}
+.heavy{font-weight: 800;}
+
+
+.spade_form .field_lables{
+  font-size: 13px;
+}
+
+.spade_tables{
+  font-size: 12px;
+}
+
+.spade-listing-table>tbody>tr>td{
+  padding: 5px 15px;
+}
+
+.spade-listing-table>thead>tr>th{
+  padding: 5px 15px;
+}
+/*--------*all pages - sidebar style*--------*/
+.sidebar_design{
+  font-size: 13px;
+  /*position: fixed;*/
+}
+
+.space{
+  height: 10px;
+}
+
+.input-check-box{
+  margin-top: 9px;
+}
+
+.sidebar_design>a{
+  border-radius: 0px !important;
+  padding: 7px 15px;
+}
+
+.sidebar_design:hover{
+  background: #A21B29;
+}
+
+.sidebar_design .active{
+  background: #A21B29 !important;
+  border:1px solid #A21B29 !important;
+  color:white !important;
+}
+
+.col-without-padding{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.col-without-left-padding{
+  padding-left: 0px !important;
+}
+
+.col-without-right-padding{
+  padding-right: 0px !important;
+}
+
+.radio_buttons.form-control{
+  height: auto !important;
+  width: auto !important;
+}
+/*---------------------usefull--------------------*/
+body{font-family: spade_font; word-wrap: break-word;}
+.col-without-padding{padding:0;}
+.less_margin_hr{margin-bottom: 5px;}
+.grey_text{color:grey;}
+.more_link_style{font-size: 12px;}
+.small_font_px{font-size: 12px;}
+.form-control-checkbox{height: initial !important;width: initial;}
+.spade_textfields{background: transparent; border-radius: 0 !important;}
+.spade_grey_btn{background: #960008; border-radius: 0; padding: 5px 10px;color:white;}
+.spade_grey_btn:hover{background: #243f76; color:white !important;}
+.spade_onclick_red_btn{background: #960008 !important; color:white !important; border-radius: 0px;}
+.spade_red_btn{background: #960008; border-radius: 0; padding: 5px 10px;color:white;}
+.spade_red_btn:hover{background: #243f76; border-radius: 0; padding: 5px 10px;color:white;}
+.light_text{font-size:0.95em; color:#333;}
+.white-badge{background: rgba(255, 255, 255, 0.8) !important; color:#333 !important;}
+
+/*Custom CSS*/
+.number-of-rows {
+  margin-left: 10px;
+}
+.less-margin-hr{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.spade-btn-xsm{
+  background: #960008;
+  border-radius: 0;
+  color:white !important;
+}
+.spade-btn-xsm:hover{
+  background: #243f76;
+  color: white !important;
+}
+.approve-link{
+  font-size: 9px;
+  margin-top: 2px;
+}
+.no-caption{
+  color: grey;
+}
+.cation-text-holder {
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.input-textarea {
+  resize: vertical;
+}
+
+.col-center {
+  float:none;
+  margin:0 auto;
+}
+
+.hospital_images {
+  cursor: pointer;
+  height: 100px !important;
+}
+
+.show_hospital_image {
+  cursor: pointer;
+}
+
+.display-only {
+  opacity: 0.65;
+}
+
+.btn-group.display-only label.btn {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+.btn-group.display-only label.btn.active {
+    opacity: 1;
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+.btn-primary-red {
+  opacity: 0.3;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  color: black !important;
+}
+
+.btn-group > .btn-primary-red.active {
+  opacity: 1;
+  background: #960008;
+  border-color: #960008;
+  color:white !important;
+}
+
+.btn-group > .btn-primary-red:hover {
+  opacity: 1;
+  background: #243f76;
+  border-color: #243f76;
+  color:white !important;
+}
+
+.spade-white-btn-xsm {
+  background: white;
+  border-radius: 0;
+  color: #A21B29;
+}
+
+.spade-white-btn-xsm:hover {
+  background: #243f76;
+  color: white !important;
+}
+
+.spade-panel-heading {
+  color: white !important;
+  border-color: #A21B29 !important;
+  background-color: #A21B29 !important;
+}
+
+.spade-panel-border {
+  border-color: #A21B29;
+}
+
+.table-form>thead>tr>th {
+  border: 0px !important;
+}
+
+.table-form>tbody>tr>td  {
+  border-bottom: 1px solid #ddd !important;
+}
+
+.collapsable-heading {
+  color: white;
+  text-decoration: none;
+}
+
+.collapsable-heading:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.collapsable-heading:click {
+  color: white;
+  text-decoration: none;
+}
+
+.collapsable-heading:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.collapsable-heading:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.table-form-no-header>thead>tr>th {
+  border: 0px !important;
+}
+
+.table-form-no-header>tbody>tr>td  {
+  border-top: 0px !important;
+  border-bottom: 1px solid #ddd !important;
+}
+
+
+.no-border>td {
+  border: 0px !important;
+}
+
+.no-border>th {
+  border: 0px !important;
+}
+
+.message-wrapper {
+  margin-top: -15px;
+}
+
+.approval-pending {
+  font-size: 9px;
+  color: grey;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.approval-pending-checkbox {
+  color: grey;
+  font-size: 9px;
+  margin-left: 10px;
+}
+
+.custom-help-block {
+  font-size: 11px;
+  color: grey;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.spade-cms-table {
+  cursor: pointer;
+}
+
+.spade-cms-used-table {
+  cursor: auto;
+}
+
+table {
+  color: white;
+}

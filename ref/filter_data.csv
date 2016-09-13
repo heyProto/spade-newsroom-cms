@@ -1,0 +1,245 @@
+id,slug,hub,desk,seniority,shifts,skills,toolset,availability
+s_ep1_sp1_emp1,,Sourcing,Culture,Trainee Producer,Morning,"Anchor,Reporter - Print,Reporter - Digital,Graphic Designer  TV",HTML,Hired
+s_ep1_sp1_emp2,,Sourcing,Culture,Assistant Producer,Morning,"Graphic Designer  TV,Graphic Designer - Digital","Illustrator,CSS",Hired
+s_ep1_sp1,,Sourcing,Culture,Chief Producer,Evening,Graphic Designer  TV,"Photoshop,HTML,JavaScript,InDesign,Illustrator",Hired
+s_ep1_sp2_emp1,,Sourcing,Culture,Trainee Producer,Morning,"Reporter - Digital,Graphic Designer - Print","HTML,CSS",Hired
+s_ep1_sp2_emp2,,Sourcing,Culture,Trainee Producer,Graveyard,"Reporter - TV,Graphic Designer - Print,Reporter - Digital,Graphic Designer - Digital,Journalist,Developer,Reporter - Print,Copy Editor,Anchor","JavaScript,Photoshop,Illustrator",Hired
+s_ep1_sp2,,Sourcing,Culture,Senior Producer,Graveyard,"Graphic Designer - Print,Graphic Designer - Digital,Reporter - Print","JavaScript,HTML,Photoshop,CSS,InDesign",Hired
+s_ep1_sp3_emp1,,Sourcing,Culture,Producer,Graveyard,Copy Editor,"InDesign,CSS,Illustrator,Photoshop,JavaScript",Hired
+s_ep1_sp3_emp2,,Sourcing,Culture,Associate Producer,Evening,"Graphic Designer  TV,Graphic Designer - Print,Graphic Designer - Digital",JavaScript,Hired
+s_ep1_sp3,,Sourcing,Culture,Senior Producer,Graveyard,"Reporter - Digital,Graphic Designer - Print","Illustrator,CSS,Photoshop",Hired
+s_ep1,,Sourcing,Culture,Executive Producer,Graveyard,"Graphic Designer  TV,Reporter - TV,Graphic Designer - Digital,Reporter - Digital,Reporter - Print,Copy Editor,Developer","JavaScript,Photoshop,Illustrator",Hired
+s_ep2_sp1_emp1,,Sourcing,Research,Trainee Producer,Morning,"Reporter - Digital,Reporter - TV,Graphic Designer - Print,Journalist","JavaScript,CSS,Illustrator,HTML,Photoshop",Hired
+s_ep2_sp1_emp2,,Sourcing,Research,Trainee Producer,Graveyard,"Reporter - Print,Copy Editor,Reporter - TV,Developer,Graphic Designer  TV,Journalist,Graphic Designer - Digital,Reporter - Digital,Anchor","CSS,JavaScript,Illustrator,InDesign,Photoshop,HTML",Hired
+s_ep2_sp1,,Sourcing,Research,Senior Producer,Evening,"Graphic Designer - Digital,Reporter - TV,Journalist","Illustrator,CSS,Photoshop,JavaScript,HTML,InDesign",Hired
+s_ep2_sp2_emp1,,Sourcing,Research,Producer,Graveyard,"Graphic Designer - Print,Journalist,Anchor,Reporter - Digital,Copy Editor,Graphic Designer - Digital,Developer,Graphic Designer  TV","Illustrator,JavaScript,HTML,InDesign,Photoshop",Hired
+s_ep2_sp2_emp2,,Sourcing,Research,Trainee Producer,Evening,"Developer,Graphic Designer - Print,Graphic Designer - Digital,Anchor,Reporter - Print,Reporter - Digital,Journalist,Reporter - TV,Graphic Designer  TV,Copy Editor","Photoshop,HTML",Hired
+s_ep2_sp2,,Sourcing,Research,Chief Producer,Evening,"Graphic Designer - Digital,Graphic Designer - Print,Anchor,Developer,Reporter - Print,Copy Editor","Photoshop,JavaScript",Hired
+s_ep2_sp3_emp1,,Sourcing,Research,Producer,Morning,"Graphic Designer - Print,Anchor,Journalist,Developer",Photoshop,Hired
+s_ep2_sp3_emp2,,Sourcing,Research,Associate Producer,Graveyard,"Developer,Graphic Designer  TV,Reporter - Print,Graphic Designer - Print","CSS,InDesign,Photoshop",Hired
+s_ep2_sp3,,Sourcing,Research,Chief Producer,Graveyard,"Developer,Graphic Designer  TV,Anchor,Copy Editor,Graphic Designer - Digital,Journalist,Reporter - Print,Graphic Designer - Print,Reporter - TV","Illustrator,CSS,Photoshop,HTML,InDesign",Hired
+s_ep2,,Sourcing,Research,Executive Producer,Morning,"Graphic Designer - Digital,Graphic Designer  TV,Reporter - Digital","Illustrator,HTML,Photoshop,JavaScript,CSS,InDesign",Hired
+s_ep3_sp1_emp1,,Sourcing,Alerts,Associate Producer,Morning,"Copy Editor,Graphic Designer - Print,Graphic Designer - Digital,Graphic Designer  TV,Reporter - TV,Developer","HTML,Photoshop,Illustrator",Hired
+s_ep3_sp1_emp2,,Sourcing,Alerts,Associate Producer,Morning,"Journalist,Anchor,Graphic Designer  TV","Illustrator,HTML,CSS",Hired
+s_ep3_sp1,,Sourcing,Alerts,Senior Producer,Evening,"Reporter - Digital,Graphic Designer - Print,Reporter - Print,Journalist,Graphic Designer - Digital,Copy Editor",InDesign,Hired
+s_ep3_sp2_emp1,,Sourcing,Alerts,Producer,Morning,"Journalist,Anchor,Graphic Designer - Print,Reporter - Digital,Reporter - Print,Graphic Designer  TV,Developer,Copy Editor,Graphic Designer - Digital","CSS,InDesign,Illustrator",Hired
+s_ep3_sp2_emp2,,Sourcing,Alerts,Trainee Producer,Graveyard,"Developer,Journalist,Graphic Designer - Print,Copy Editor,Reporter - Digital","Illustrator,HTML,CSS,InDesign,Photoshop",Hired
+s_ep3_sp2,,Sourcing,Alerts,Senior Producer,Graveyard,"Copy Editor,Graphic Designer - Print,Graphic Designer  TV,Graphic Designer - Digital,Anchor","HTML,CSS,Illustrator,Photoshop",Hired
+s_ep3_sp3_emp1,,Sourcing,Alerts,Producer,Evening,Journalist,"InDesign,JavaScript,HTML,Illustrator,CSS",Hired
+s_ep3_sp3_emp2,,Sourcing,Alerts,Trainee Producer,Morning,"Anchor,Reporter - Print,Graphic Designer  TV,Journalist,Developer,Graphic Designer - Print,Reporter - TV,Copy Editor","CSS,HTML,Photoshop",Hired
+s_ep3_sp3,,Sourcing,Alerts,Senior Producer,Graveyard,"Copy Editor,Graphic Designer - Print,Reporter - Digital,Developer,Anchor,Reporter - TV,Journalist,Graphic Designer  TV,Reporter - Print,Graphic Designer - Digital","HTML,InDesign,Photoshop,JavaScript,CSS",Hired
+s_ep3,,Sourcing,Alerts,Executive Producer,Evening,"Reporter - Print,Graphic Designer  TV,Developer,Graphic Designer - Digital,Reporter - Digital","CSS,Photoshop",Hired
+s_ep4_sp1_emp1,,Sourcing,Assignment,Producer,Evening,"Reporter - TV,Graphic Designer - Digital,Copy Editor,Developer","JavaScript,CSS,Photoshop",Hired
+s_ep4_sp1_emp2,,Sourcing,Assignment,Trainee Producer,Morning,"Journalist,Graphic Designer - Print,Reporter - Print,Graphic Designer  TV,Anchor,Copy Editor,Reporter - TV","JavaScript,HTML,CSS,InDesign",Hired
+s_ep4_sp1,,Sourcing,Assignment,Chief Producer,Morning,"Graphic Designer  TV,Reporter - Digital,Anchor,Graphic Designer - Print,Graphic Designer - Digital","InDesign,Illustrator",Hired
+s_ep4_sp2_emp1,,Sourcing,Assignment,Trainee Producer,Evening,Developer,"HTML,Illustrator",Hired
+s_ep4_sp2_emp2,,Sourcing,Assignment,Associate Producer,Evening,Graphic Designer - Print,"CSS,Illustrator,HTML,InDesign,JavaScript,Photoshop",Hired
+s_ep4_sp2,,Sourcing,Assignment,Senior Producer,Morning,"Reporter - TV,Graphic Designer  TV,Graphic Designer - Digital",InDesign,Hired
+s_ep4_sp3_emp1,,Sourcing,Assignment,Assistant Producer,Graveyard,"Reporter - TV,Reporter - Print","Illustrator,HTML,JavaScript,Photoshop,InDesign,CSS",Hired
+s_ep4_sp3_emp2,,Sourcing,Assignment,Assistant Producer,Evening,"Graphic Designer - Digital,Reporter - Digital,Graphic Designer  TV,Journalist,Graphic Designer - Print","JavaScript,Illustrator",Hired
+s_ep4_sp3,,Sourcing,Assignment,Senior Producer,Graveyard,Graphic Designer  TV,"InDesign,HTML,JavaScript,Illustrator,CSS",Hired
+s_ep4,,Sourcing,Assignment,Executive Producer,Evening,"Journalist,Anchor,Graphic Designer  TV,Developer,Reporter - Print,Graphic Designer - Digital","InDesign,HTML,Photoshop,CSS",Hired
+s_ep5_sp1_emp1,,Sourcing,Control,Associate Producer,Graveyard,"Graphic Designer - Print,Graphic Designer  TV,Reporter - TV,Graphic Designer - Digital,Reporter - Digital,Developer,Copy Editor","Illustrator,Photoshop,HTML",Hired
+s_ep5_sp1_emp2,,Sourcing,Control,Associate Producer,Graveyard,"Graphic Designer - Digital,Graphic Designer  TV,Reporter - TV","Illustrator,Photoshop,HTML,InDesign,JavaScript,CSS",Hired
+s_ep5_sp1,,Sourcing,Control,Chief Producer,Evening,"Graphic Designer  TV,Graphic Designer - Digital,Developer,Reporter - Digital,Copy Editor,Graphic Designer - Print,Anchor,Reporter - TV,Journalist,Reporter - Print","Illustrator,Photoshop",Hired
+s_ep5_sp2_emp1,,Sourcing,Control,Trainee Producer,Graveyard,"Journalist,Developer,Copy Editor,Graphic Designer - Digital,Graphic Designer  TV","CSS,JavaScript,Photoshop,Illustrator",Hired
+s_ep5_sp2_emp2,,Sourcing,Control,Producer,Evening,"Graphic Designer - Print,Reporter - TV,Journalist","HTML,Illustrator,InDesign,JavaScript",Hired
+s_ep5_sp2,,Sourcing,Control,Chief Producer,Morning,"Graphic Designer - Digital,Graphic Designer - Print,Copy Editor,Developer,Anchor","Illustrator,Photoshop,CSS,JavaScript",Hired
+s_ep5_sp3_emp1,,Sourcing,Control,Associate Producer,Morning,"Graphic Designer - Print,Developer,Copy Editor,Anchor,Journalist,Reporter - Digital,Graphic Designer  TV,Reporter - TV,Reporter - Print,Graphic Designer - Digital","CSS,InDesign",Hired
+s_ep5_sp3_emp2,,Sourcing,Control,Associate Producer,Morning,"Graphic Designer  TV,Graphic Designer - Digital,Graphic Designer - Print,Reporter - TV,Developer","Photoshop,Illustrator,HTML,JavaScript,CSS",Hired
+s_ep5_sp3,,Sourcing,Control,Senior Producer,Graveyard,"Journalist,Graphic Designer - Digital,Graphic Designer  TV,Reporter - Print,Copy Editor,Anchor","Photoshop,InDesign,Illustrator,HTML,JavaScript,CSS",Hired
+s_ep5,,Sourcing,Control,Executive Producer,Morning,"Journalist,Copy Editor,Developer,Graphic Designer  TV,Graphic Designer - Print,Reporter - TV,Graphic Designer - Digital","CSS,HTML,InDesign,Illustrator,JavaScript",Hired
+s_ep6_sp1_emp1,,Sourcing,Support,Trainee Producer,Morning,"Journalist,Copy Editor,Graphic Designer - Print,Anchor,Reporter - Digital,Graphic Designer  TV,Graphic Designer - Digital,Reporter - Print",Illustrator,Hired
+s_ep6_sp1_emp2,,Sourcing,Support,Trainee Producer,Graveyard,"Reporter - TV,Graphic Designer - Print,Graphic Designer  TV,Anchor,Journalist,Reporter - Print,Reporter - Digital,Developer","JavaScript,HTML,InDesign,Illustrator,CSS,Photoshop",Hired
+s_ep6_sp1,,Sourcing,Support,Chief Producer,Evening,"Journalist,Copy Editor,Reporter - Print,Reporter - TV,Graphic Designer - Print,Graphic Designer  TV,Graphic Designer - Digital,Anchor",Illustrator,Hired
+s_ep6_sp2_emp1,,Sourcing,Support,Producer,Morning,"Graphic Designer  TV,Copy Editor",JavaScript,Hired
+s_ep6_sp2_emp2,,Sourcing,Support,Associate Producer,Morning,Copy Editor,"Illustrator,Photoshop,JavaScript",Hired
+s_ep6_sp2,,Sourcing,Support,Chief Producer,Graveyard,"Graphic Designer - Print,Journalist,Reporter - Print,Graphic Designer  TV,Reporter - TV,Copy Editor,Anchor,Reporter - Digital,Developer,Graphic Designer - Digital","InDesign,Illustrator,Photoshop",Hired
+s_ep6_sp3_emp1,,Sourcing,Support,Associate Producer,Morning,"Developer,Journalist,Graphic Designer - Print,Graphic Designer  TV,Reporter - TV,Anchor",InDesign,Hired
+s_ep6_sp3_emp2,,Sourcing,Support,Producer,Graveyard,Journalist,"JavaScript,Illustrator",Hired
+s_ep6_sp3,,Sourcing,Support,Senior Producer,Graveyard,"Reporter - TV,Graphic Designer - Print,Copy Editor,Reporter - Digital,Anchor,Journalist,Reporter - Print,Graphic Designer - Digital","HTML,InDesign,Illustrator,JavaScript",Hired
+s_ep6,,Sourcing,Support,Executive Producer,Evening,"Journalist,Developer","HTML,CSS,Photoshop,Illustrator,JavaScript,InDesign",Hired
+s_mp,,Sourcing,,Managing Producer,Evening,"Graphic Designer - Print,Reporter - Digital,Reporter - Print,Journalist,Copy Editor,Developer",CSS,Hiring
+p_ep1_sp1_emp1,,Production,Design,Assistant Producer,Evening,"Developer,Reporter - Digital,Graphic Designer  TV,Reporter - TV,Reporter - Print,Copy Editor,Graphic Designer - Print,Anchor","CSS,JavaScript,Photoshop,InDesign,Illustrator",Hired
+p_ep1_sp1_emp2,,Production,Design,Assistant Producer,Evening,"Graphic Designer - Print,Journalist,Reporter - TV,Developer,Anchor,Graphic Designer  TV,Reporter - Print,Graphic Designer - Digital,Copy Editor,Reporter - Digital","CSS,HTML,Photoshop",Hired
+p_ep1_sp1,,Production,Design,Chief Producer,Morning,"Reporter - Print,Copy Editor,Graphic Designer  TV,Reporter - Digital,Journalist,Developer,Anchor,Reporter - TV,Graphic Designer - Print","CSS,InDesign,Illustrator",Hired
+p_ep1_sp2_emp1,,Production,Design,Trainee Producer,Graveyard,"Journalist,Anchor,Developer,Graphic Designer - Print,Reporter - Print,Graphic Designer  TV","Photoshop,InDesign,CSS,JavaScript,HTML,Illustrator",Hired
+p_ep1_sp2_emp2,,Production,Design,Trainee Producer,Evening,"Graphic Designer  TV,Anchor,Reporter - Print,Journalist,Reporter - TV,Developer,Copy Editor,Graphic Designer - Print,Graphic Designer - Digital","InDesign,Illustrator,HTML,Photoshop,JavaScript,CSS",Hired
+p_ep1_sp2,,Production,Design,Chief Producer,Graveyard,"Reporter - Print,Graphic Designer - Print,Graphic Designer  TV,Anchor,Developer,Journalist,Reporter - Digital,Reporter - TV,Copy Editor,Graphic Designer - Digital",Photoshop,Hired
+p_ep1_sp3_emp1,,Production,Design,Producer,Graveyard,"Developer,Reporter - TV,Copy Editor,Journalist,Reporter - Digital,Anchor,Graphic Designer - Print,Reporter - Print,Graphic Designer - Digital,Graphic Designer  TV","InDesign,Photoshop,HTML,Illustrator,JavaScript",Hired
+p_ep1_sp3_emp2,,Production,Design,Producer,Graveyard,"Reporter - Print,Anchor,Reporter - TV,Graphic Designer - Print",Photoshop,Hired
+p_ep1_sp3,,Production,Design,Senior Producer,Morning,"Graphic Designer  TV,Graphic Designer - Print,Anchor,Reporter - Print,Journalist","Photoshop,Illustrator,HTML,CSS,JavaScript,InDesign",Hired
+p_ep1,,Production,Design,Executive Producer,Evening,"Graphic Designer - Digital,Journalist,Reporter - TV",JavaScript,Hired
+p_ep2_sp1_emp1,,Production,Interactives,Associate Producer,Morning,"Graphic Designer  TV,Reporter - Digital","CSS,InDesign,JavaScript",Hired
+p_ep2_sp1_emp2,,Production,Interactives,Assistant Producer,Morning,"Reporter - Digital,Anchor,Graphic Designer - Digital,Graphic Designer - Print,Reporter - TV,Developer",Illustrator,Hired
+p_ep2_sp1,,Production,Interactives,Chief Producer,Evening,"Reporter - Print,Anchor","HTML,CSS,InDesign,JavaScript,Photoshop,Illustrator",Hired
+p_ep2_sp2_emp1,,Production,Interactives,Assistant Producer,Evening,"Copy Editor,Graphic Designer  TV,Graphic Designer - Print,Reporter - TV,Developer,Reporter - Digital",CSS,Hired
+p_ep2_sp2_emp2,,Production,Interactives,Producer,Morning,"Reporter - Digital,Journalist,Graphic Designer  TV",JavaScript,Hired
+p_ep2_sp2,,Production,Interactives,Senior Producer,Graveyard,"Reporter - Digital,Graphic Designer - Print,Graphic Designer  TV,Graphic Designer - Digital,Reporter - Print,Journalist,Developer,Anchor","JavaScript,Illustrator,HTML,Photoshop",Hired
+p_ep2_sp3_emp1,,Production,Interactives,Trainee Producer,Evening,"Graphic Designer  TV,Graphic Designer - Print,Reporter - Digital,Reporter - TV,Journalist","HTML,Photoshop,CSS,Illustrator",Hired
+p_ep2_sp3_emp2,,Production,Interactives,Assistant Producer,Graveyard,"Journalist,Graphic Designer - Print,Reporter - TV","InDesign,Illustrator",Hired
+p_ep2_sp3,,Production,Interactives,Senior Producer,Morning,"Copy Editor,Anchor,Reporter - Digital,Graphic Designer - Digital,Journalist,Graphic Designer  TV,Reporter - Print,Reporter - TV,Graphic Designer - Print,Developer","Photoshop,CSS,JavaScript,Illustrator,HTML,InDesign",Hired
+p_ep2,,Production,Interactives,Executive Producer,Morning,"Copy Editor,Graphic Designer - Digital,Journalist,Reporter - Print,Reporter - Digital,Anchor,Developer,Reporter - TV,Graphic Designer  TV,Graphic Designer - Print","Illustrator,HTML,JavaScript,Photoshop,CSS,InDesign",Hired
+p_ep3_sp1_emp1,,Production,Studio,Trainee Producer,Morning,"Graphic Designer - Print,Developer,Graphic Designer - Digital,Copy Editor,Reporter - TV,Reporter - Digital,Journalist,Reporter - Print,Anchor",Illustrator,Hired
+p_ep3_sp1_emp2,,Production,Studio,Assistant Producer,Graveyard,"Developer,Reporter - Print,Graphic Designer - Print,Reporter - TV,Reporter - Digital,Graphic Designer - Digital,Graphic Designer  TV,Copy Editor,Anchor,Journalist","JavaScript,Photoshop,Illustrator",Hired
+p_ep3_sp1,,Production,Studio,Senior Producer,Evening,"Graphic Designer  TV,Graphic Designer - Print,Reporter - TV","Photoshop,Illustrator",Hired
+p_ep3_sp2_emp1,,Production,Studio,Producer,Evening,"Anchor,Reporter - Digital,Graphic Designer - Digital,Reporter - TV,Copy Editor,Reporter - Print,Graphic Designer - Print,Journalist,Developer,Graphic Designer  TV","InDesign,Photoshop",Hired
+p_ep3_sp2_emp2,,Production,Studio,Assistant Producer,Graveyard,"Anchor,Reporter - Print,Reporter - TV,Graphic Designer - Print,Copy Editor,Reporter - Digital","Photoshop,InDesign,Illustrator,HTML,CSS,JavaScript",Hired
+p_ep3_sp2,,Production,Studio,Senior Producer,Evening,"Reporter - Digital,Copy Editor,Developer,Graphic Designer - Print,Anchor,Graphic Designer - Digital,Reporter - Print,Reporter - TV","Illustrator,JavaScript",Hired
+p_ep3_sp3_emp1,,Production,Studio,Producer,Graveyard,"Anchor,Graphic Designer - Digital,Graphic Designer - Print,Copy Editor","Illustrator,CSS,Photoshop,InDesign",Hired
+p_ep3_sp3_emp2,,Production,Studio,Trainee Producer,Morning,"Graphic Designer - Print,Copy Editor,Journalist,Reporter - Digital,Developer,Graphic Designer - Digital,Anchor,Reporter - TV,Reporter - Print",Illustrator,Hired
+p_ep3_sp3,,Production,Studio,Senior Producer,Morning,"Journalist,Reporter - Digital,Anchor,Developer,Reporter - Print,Reporter - TV,Graphic Designer  TV,Graphic Designer - Digital",CSS,Hired
+p_ep3,,Production,Studio,Executive Producer,Morning,"Anchor,Graphic Designer - Digital,Reporter - Digital,Developer,Copy Editor,Graphic Designer - Print,Reporter - TV,Graphic Designer  TV","HTML,CSS,Illustrator,Photoshop,InDesign",Hired
+p_ep4_sp1_emp1,,Production,Multimedia,Producer,Morning,"Anchor,Journalist,Reporter - Print,Reporter - Digital,Graphic Designer - Digital,Reporter - TV,Graphic Designer  TV,Graphic Designer - Print","JavaScript,Photoshop,InDesign,Illustrator",Hired
+p_ep4_sp1_emp2,,Production,Multimedia,Producer,Morning,"Reporter - TV,Graphic Designer - Digital,Reporter - Print,Copy Editor","InDesign,Photoshop,Illustrator",Hired
+p_ep4_sp1,,Production,Multimedia,Chief Producer,Evening,Journalist,"Photoshop,CSS,InDesign,HTML",Hired
+p_ep4_sp2_emp1,,Production,Multimedia,Producer,Evening,"Graphic Designer - Print,Reporter - TV,Copy Editor,Graphic Designer  TV,Developer","Photoshop,Illustrator,CSS",Hired
+p_ep4_sp2_emp2,,Production,Multimedia,Associate Producer,Graveyard,"Graphic Designer - Digital,Anchor,Developer,Journalist,Graphic Designer  TV,Reporter - TV,Copy Editor",Photoshop,Hired
+p_ep4_sp2,,Production,Multimedia,Chief Producer,Morning,"Developer,Reporter - Print,Graphic Designer  TV,Anchor","Photoshop,JavaScript",Hired
+p_ep4_sp3_emp1,,Production,Multimedia,Producer,Graveyard,"Reporter - Print,Reporter - TV,Journalist,Graphic Designer - Print,Graphic Designer  TV,Graphic Designer - Digital,Reporter - Digital","CSS,JavaScript",Hired
+p_ep4_sp3_emp2,,Production,Multimedia,Assistant Producer,Evening,"Copy Editor,Graphic Designer  TV,Graphic Designer - Print,Reporter - Print,Reporter - TV,Journalist,Developer,Reporter - Digital,Anchor,Graphic Designer - Digital","Photoshop,HTML,Illustrator,CSS",Hired
+p_ep4_sp3,,Production,Multimedia,Chief Producer,Morning,"Graphic Designer - Digital,Copy Editor,Graphic Designer  TV,Anchor,Reporter - Digital,Journalist,Developer,Reporter - Print,Graphic Designer - Print","HTML,CSS",Hired
+p_ep4,,Production,Multimedia,Executive Producer,Graveyard,"Reporter - Print,Anchor,Copy Editor","CSS,JavaScript,Illustrator,HTML",Hired
+p_ep5_sp1_emp1,,Production,Home Bureau,Trainee Producer,Morning,"Graphic Designer - Digital,Anchor","CSS,InDesign",Hired
+p_ep5_sp1_emp2,,Production,Home Bureau,Trainee Producer,Graveyard,"Graphic Designer - Print,Developer,Reporter - TV,Copy Editor,Anchor,Reporter - Digital","InDesign,Illustrator",Hired
+p_ep5_sp1,,Production,Home Bureau,Senior Producer,Evening,"Developer,Graphic Designer - Print","Illustrator,CSS,Photoshop,JavaScript,InDesign",Hired
+p_ep5_sp2_emp1,,Production,Home Bureau,Producer,Graveyard,Copy Editor,"CSS,Photoshop,JavaScript",Hired
+p_ep5_sp2_emp2,,Production,Home Bureau,Assistant Producer,Morning,"Reporter - TV,Graphic Designer  TV,Reporter - Print,Graphic Designer - Print,Copy Editor,Anchor,Reporter - Digital",JavaScript,Hired
+p_ep5_sp2,,Production,Home Bureau,Chief Producer,Morning,"Graphic Designer - Print,Reporter - Digital,Developer,Anchor","Illustrator,HTML,JavaScript,InDesign,Photoshop,CSS",Hired
+p_ep5_sp3_emp1,,Production,Home Bureau,Trainee Producer,Morning,"Reporter - Print,Graphic Designer  TV,Reporter - Digital,Reporter - TV,Copy Editor",InDesign,Hired
+p_ep5_sp3_emp2,,Production,Home Bureau,Producer,Morning,"Journalist,Graphic Designer - Digital,Reporter - Digital,Anchor","CSS,Illustrator,HTML,JavaScript,Photoshop,InDesign",Hired
+p_ep5_sp3,,Production,Home Bureau,Chief Producer,Evening,Journalist,"HTML,Photoshop,Illustrator",Hired
+p_ep5,,Production,Home Bureau,Executive Producer,Morning,"Journalist,Graphic Designer  TV,Reporter - Digital","HTML,JavaScript,Illustrator",Hired
+p_ep6_sp1_emp1,,Production,Copy,Producer,Morning,"Graphic Designer - Print,Reporter - TV,Graphic Designer - Digital","JavaScript,InDesign,Illustrator",Hired
+p_ep6_sp1_emp2,,Production,Copy,Assistant Producer,Morning,"Graphic Designer - Digital,Reporter - Print,Copy Editor,Reporter - Digital,Developer,Journalist,Reporter - TV,Graphic Designer  TV","Illustrator,HTML,CSS,InDesign",Hired
+p_ep6_sp1,,Production,Copy,Chief Producer,Evening,"Developer,Anchor,Reporter - Print,Copy Editor,Journalist,Reporter - TV,Graphic Designer - Digital,Graphic Designer  TV",Photoshop,Hired
+p_ep6_sp2_emp1,,Production,Copy,Assistant Producer,Evening,"Graphic Designer - Digital,Anchor","Illustrator,HTML,CSS",Hired
+p_ep6_sp2_emp2,,Production,Copy,Associate Producer,Morning,Reporter - Print,"Photoshop,JavaScript,CSS,Illustrator",Hired
+p_ep6_sp2,,Production,Copy,Chief Producer,Graveyard,"Reporter - Print,Developer","Illustrator,CSS",Hired
+p_ep6_sp3_emp1,,Production,Copy,Associate Producer,Evening,"Reporter - TV,Reporter - Print","HTML,InDesign,JavaScript,Photoshop,CSS,Illustrator",Hired
+p_ep6_sp3_emp2,,Production,Copy,Assistant Producer,Morning,"Developer,Reporter - Digital,Anchor","Illustrator,Photoshop,HTML,CSS,InDesign",Hired
+p_ep6_sp3,,Production,Copy,Senior Producer,Morning,"Graphic Designer - Print,Copy Editor,Graphic Designer - Digital,Reporter - Digital,Developer,Anchor,Reporter - TV,Journalist,Graphic Designer  TV,Reporter - Print","JavaScript,HTML,CSS,Illustrator",Hired
+p_ep6,,Production,Copy,Executive Producer,Evening,Developer,"JavaScript,InDesign,Photoshop,Illustrator",Hired
+p_mp,,Production,,Managing Producer,Evening,"Journalist,Graphic Designer - Digital",JavaScript,Hiring
+a_ep1_sp1_emp1,,Assembling,Shows,Producer,Morning,"Journalist,Graphic Designer - Print,Reporter - TV,Developer,Graphic Designer  TV,Copy Editor,Graphic Designer - Digital","JavaScript,HTML,CSS",Hired
+a_ep1_sp1_emp2,,Assembling,Shows,Associate Producer,Graveyard,"Copy Editor,Graphic Designer - Print,Anchor,Graphic Designer - Digital,Reporter - Digital",Photoshop,Hired
+a_ep1_sp1,,Assembling,Shows,Chief Producer,Morning,"Reporter - TV,Journalist,Reporter - Print,Graphic Designer - Digital,Graphic Designer  TV,Anchor,Graphic Designer - Print,Developer,Reporter - Digital","InDesign,HTML,CSS,JavaScript",Hired
+a_ep1_sp2_emp1,,Assembling,Shows,Trainee Producer,Graveyard,"Graphic Designer - Print,Reporter - Digital,Reporter - Print,Journalist,Copy Editor,Developer,Anchor","Illustrator,CSS,InDesign,JavaScript,Photoshop,HTML",Hired
+a_ep1_sp2_emp2,,Assembling,Shows,Associate Producer,Morning,"Graphic Designer  TV,Graphic Designer - Digital,Reporter - Print","JavaScript,Illustrator,HTML,Photoshop,CSS,InDesign",Hired
+a_ep1_sp2,,Assembling,Shows,Chief Producer,Evening,"Copy Editor,Graphic Designer - Print","CSS,HTML,JavaScript,Illustrator,Photoshop",Hired
+a_ep1_sp3_emp1,,Assembling,Shows,Assistant Producer,Morning,"Graphic Designer  TV,Journalist,Anchor,Copy Editor,Graphic Designer - Print,Reporter - TV",JavaScript,Hired
+a_ep1_sp3_emp2,,Assembling,Shows,Assistant Producer,Evening,"Anchor,Reporter - Digital,Graphic Designer  TV,Reporter - Print,Copy Editor,Journalist,Graphic Designer - Digital","Illustrator,CSS,JavaScript",Hired
+a_ep1_sp3,,Assembling,Shows,Chief Producer,Evening,"Graphic Designer  TV,Copy Editor,Developer","Photoshop,JavaScript,HTML,InDesign",Hired
+a_ep1,,Assembling,Shows,Executive Producer,Morning,"Copy Editor,Reporter - Digital,Graphic Designer - Digital,Graphic Designer - Print,Anchor","Photoshop,JavaScript",Hired
+a_ep2_sp1_emp1,,Assembling,ePrint,Associate Producer,Graveyard,Developer,"Illustrator,CSS,InDesign,HTML,Photoshop",Hired
+a_ep2_sp1_emp2,,Assembling,ePrint,Trainee Producer,Evening,"Developer,Graphic Designer - Print,Anchor,Reporter - Digital,Reporter - Print,Graphic Designer  TV","Illustrator,InDesign",Hired
+a_ep2_sp1,,Assembling,ePrint,Chief Producer,Morning,"Developer,Reporter - Digital,Anchor","Photoshop,HTML,InDesign",Hired
+a_ep2_sp2_emp1,,Assembling,ePrint,Assistant Producer,Morning,"Graphic Designer  TV,Anchor,Journalist,Reporter - Print,Developer,Copy Editor,Graphic Designer - Print",Illustrator,Hired
+a_ep2_sp2_emp2,,Assembling,ePrint,Associate Producer,Graveyard,"Journalist,Reporter - Print,Anchor,Copy Editor","Illustrator,HTML",Hired
+a_ep2_sp2,,Assembling,ePrint,Chief Producer,Evening,"Graphic Designer - Print,Anchor,Reporter - Print,Reporter - Digital,Reporter - TV,Developer,Copy Editor","HTML,JavaScript",Hired
+a_ep2_sp3_emp1,,Assembling,ePrint,Associate Producer,Morning,"Graphic Designer  TV,Reporter - Digital,Reporter - TV,Developer,Graphic Designer - Digital,Copy Editor,Anchor,Journalist,Reporter - Print,Graphic Designer - Print","InDesign,HTML,CSS,JavaScript",Hired
+a_ep2_sp3_emp2,,Assembling,ePrint,Producer,Morning,"Reporter - Digital,Graphic Designer - Print,Developer,Graphic Designer  TV,Anchor,Graphic Designer - Digital","InDesign,HTML",Hired
+a_ep2_sp3,,Assembling,ePrint,Senior Producer,Graveyard,"Reporter - Print,Anchor,Journalist,Graphic Designer - Digital","Photoshop,HTML,CSS,InDesign",Hired
+a_ep2,,Assembling,ePrint,Executive Producer,Graveyard,"Reporter - Print,Graphic Designer - Print,Journalist","JavaScript,InDesign,Illustrator",Hired
+a_ep3_sp1_emp1,,Assembling,Web,Associate Producer,Evening,"Reporter - Digital,Graphic Designer - Digital,Copy Editor,Graphic Designer  TV,Reporter - TV,Developer,Journalist","HTML,JavaScript,Illustrator",Hired
+a_ep3_sp1_emp2,,Assembling,Web,Assistant Producer,Graveyard,"Journalist,Anchor,Reporter - TV,Reporter - Print,Reporter - Digital","InDesign,CSS,Illustrator,HTML",Hired
+a_ep3_sp1,,Assembling,Web,Senior Producer,Graveyard,"Journalist,Reporter - Digital,Graphic Designer  TV,Developer,Copy Editor,Graphic Designer - Print,Anchor","Photoshop,JavaScript",Hired
+a_ep3_sp2_emp1,,Assembling,Web,Assistant Producer,Morning,"Graphic Designer  TV,Developer,Reporter - TV","Photoshop,HTML,JavaScript,Illustrator",Hired
+a_ep3_sp2_emp2,,Assembling,Web,Assistant Producer,Evening,"Developer,Reporter - Digital,Copy Editor,Graphic Designer  TV,Reporter - Print,Graphic Designer - Print,Anchor,Reporter - TV,Journalist","JavaScript,HTML",Hired
+a_ep3_sp2,,Assembling,Web,Senior Producer,Graveyard,"Graphic Designer - Digital,Copy Editor,Reporter - Digital,Graphic Designer  TV,Graphic Designer - Print,Developer,Anchor","Photoshop,Illustrator",Hired
+a_ep3_sp3_emp1,,Assembling,Web,Producer,Morning,"Reporter - Print,Journalist,Reporter - TV,Anchor,Developer",InDesign,Hired
+a_ep3_sp3_emp2,,Assembling,Web,Producer,Graveyard,"Journalist,Reporter - Print,Anchor,Graphic Designer - Print,Graphic Designer - Digital,Graphic Designer  TV","Photoshop,Illustrator,InDesign,CSS,JavaScript",Hired
+a_ep3_sp3,,Assembling,Web,Chief Producer,Morning,Graphic Designer - Print,"JavaScript,Illustrator,Photoshop",Hired
+a_ep3,,Assembling,Web,Executive Producer,Morning,"Graphic Designer  TV,Graphic Designer - Digital,Reporter - Digital","JavaScript,HTML,Illustrator,InDesign,CSS,Photoshop",Hired
+a_ep4_sp1_emp1,,Assembling,Mobile,Assistant Producer,Morning,"Graphic Designer - Digital,Reporter - Print","Illustrator,HTML",Hired
+a_ep4_sp1_emp2,,Assembling,Mobile,Trainee Producer,Graveyard,"Reporter - Print,Anchor,Graphic Designer - Print,Graphic Designer  TV,Graphic Designer - Digital,Copy Editor,Journalist,Developer,Reporter - Digital",Photoshop,Hired
+a_ep4_sp1,,Assembling,Mobile,Senior Producer,Evening,"Developer,Graphic Designer - Print,Graphic Designer - Digital,Copy Editor,Journalist,Reporter - TV",Photoshop,Hired
+a_ep4_sp2_emp1,,Assembling,Mobile,Trainee Producer,Graveyard,Graphic Designer - Print,"Photoshop,CSS",Hired
+a_ep4_sp2_emp2,,Assembling,Mobile,Trainee Producer,Morning,"Graphic Designer - Digital,Reporter - TV",InDesign,Hired
+a_ep4_sp2,,Assembling,Mobile,Senior Producer,Graveyard,"Graphic Designer - Digital,Developer,Graphic Designer - Print,Reporter - TV,Reporter - Digital,Reporter - Print,Graphic Designer  TV,Copy Editor,Anchor,Journalist","InDesign,HTML,JavaScript",Hired
+a_ep4_sp3_emp1,,Assembling,Mobile,Associate Producer,Graveyard,"Developer,Reporter - Digital,Reporter - TV,Anchor,Reporter - Print,Copy Editor",Illustrator,Hired
+a_ep4_sp3_emp2,,Assembling,Mobile,Producer,Evening,"Graphic Designer - Print,Journalist,Reporter - Print,Graphic Designer  TV,Anchor,Developer,Reporter - Digital,Reporter - TV","Illustrator,HTML,InDesign,CSS,Photoshop,JavaScript",Hired
+a_ep4_sp3,,Assembling,Mobile,Senior Producer,Graveyard,"Developer,Graphic Designer  TV,Reporter - Print,Graphic Designer - Digital","CSS,HTML,InDesign",Hired
+a_ep4,,Assembling,Mobile,Executive Producer,Graveyard,Journalist,"InDesign,JavaScript,CSS",Hired
+a_ep5_sp1_emp1,,Assembling,Radio,Trainee Producer,Graveyard,Reporter - Digital,"Illustrator,CSS,HTML,Photoshop",Hired
+a_ep5_sp1_emp2,,Assembling,Radio,Trainee Producer,Evening,"Reporter - Digital,Developer,Graphic Designer  TV",Photoshop,Hired
+a_ep5_sp1,,Assembling,Radio,Chief Producer,Graveyard,"Journalist,Reporter - Digital,Reporter - TV","InDesign,Photoshop,Illustrator",Hired
+a_ep5_sp2_emp1,,Assembling,Radio,Associate Producer,Evening,"Reporter - Print,Journalist,Reporter - Digital,Graphic Designer - Digital,Developer","CSS,HTML,JavaScript,Illustrator,InDesign",Hired
+a_ep5_sp2_emp2,,Assembling,Radio,Assistant Producer,Morning,"Graphic Designer  TV,Reporter - Digital","JavaScript,Illustrator,CSS",Hired
+a_ep5_sp2,,Assembling,Radio,Senior Producer,Morning,Anchor,"CSS,InDesign,JavaScript",Hired
+a_ep5_sp3_emp1,,Assembling,Radio,Associate Producer,Evening,"Reporter - TV,Copy Editor,Journalist,Graphic Designer  TV,Graphic Designer - Digital,Reporter - Print,Anchor,Developer,Graphic Designer - Print","Photoshop,HTML,InDesign,Illustrator,JavaScript",Hired
+a_ep5_sp3_emp2,,Assembling,Radio,Trainee Producer,Evening,"Reporter - Print,Copy Editor,Reporter - TV,Reporter - Digital,Graphic Designer - Digital,Developer,Graphic Designer - Print,Anchor,Graphic Designer  TV","Photoshop,InDesign,CSS,Illustrator,HTML",Hired
+a_ep5_sp3,,Assembling,Radio,Chief Producer,Graveyard,Graphic Designer - Digital,"CSS,HTML,Photoshop,Illustrator,JavaScript",Hired
+a_ep5,,Assembling,Radio,Executive Producer,Graveyard,"Developer,Reporter - Print,Reporter - Digital,Journalist,Graphic Designer - Print,Copy Editor,Graphic Designer  TV,Graphic Designer - Digital,Reporter - TV","Illustrator,InDesign,JavaScript,CSS,Photoshop",Hired
+a_ep6_sp1_emp1,,Assembling,TV,Trainee Producer,Graveyard,"Graphic Designer - Print,Reporter - TV,Developer,Reporter - Digital,Reporter - Print","Photoshop,JavaScript,InDesign,CSS,HTML,Illustrator",Hired
+a_ep6_sp1_emp2,,Assembling,TV,Associate Producer,Graveyard,"Journalist,Copy Editor","CSS,Photoshop,Illustrator",Hired
+a_ep6_sp1,,Assembling,TV,Chief Producer,Evening,"Developer,Journalist,Graphic Designer - Print,Anchor,Reporter - TV","JavaScript,CSS",Hired
+a_ep6_sp2_emp1,,Assembling,TV,Trainee Producer,Graveyard,"Journalist,Graphic Designer - Digital,Anchor","Photoshop,HTML,Illustrator,CSS",Hired
+a_ep6_sp2_emp2,,Assembling,TV,Trainee Producer,Evening,Copy Editor,"CSS,Photoshop",Hired
+a_ep6_sp2,,Assembling,TV,Chief Producer,Graveyard,"Anchor,Reporter - Digital","CSS,Photoshop,InDesign,JavaScript,HTML,Illustrator",Hired
+a_ep6_sp3_emp1,,Assembling,TV,Assistant Producer,Graveyard,"Graphic Designer - Digital,Journalist,Developer,Reporter - TV,Graphic Designer - Print,Reporter - Digital,Copy Editor",InDesign,Hired
+a_ep6_sp3_emp2,,Assembling,TV,Associate Producer,Morning,"Anchor,Journalist","HTML,InDesign,CSS",Hired
+a_ep6_sp3,,Assembling,TV,Chief Producer,Graveyard,"Reporter - TV,Anchor,Reporter - Print","Photoshop,CSS,HTML,InDesign",Hired
+a_ep6,,Assembling,TV,Executive Producer,Graveyard,"Reporter - Print,Developer,Graphic Designer - Print,Reporter - Digital,Graphic Designer - Digital","JavaScript,HTML,Illustrator,CSS",Hired
+a_mp,,Assembling,,Managing Producer,Graveyard,"Journalist,Developer,Copy Editor,Reporter - Print,Reporter - Digital,Graphic Designer  TV","CSS,HTML,Illustrator,InDesign,JavaScript",Hiring
+d_ep1_sp1_emp1,,Distribution,Growth,Trainee Producer,Evening,"Developer,Anchor,Reporter - Print,Copy Editor,Journalist,Reporter - TV,Graphic Designer - Print",CSS,Hired
+d_ep1_sp1_emp2,,Distribution,Growth,Assistant Producer,Evening,"Graphic Designer  TV,Graphic Designer - Print,Reporter - Print,Reporter - Digital,Developer","JavaScript,Photoshop,CSS,InDesign",Hired
+d_ep1_sp1,,Distribution,Growth,Chief Producer,Graveyard,"Copy Editor,Reporter - Digital,Developer,Reporter - Print,Journalist,Graphic Designer - Print,Graphic Designer  TV,Reporter - TV,Anchor,Graphic Designer - Digital","Illustrator,Photoshop",Hired
+d_ep1_sp2_emp1,,Distribution,Growth,Trainee Producer,Morning,"Anchor,Reporter - TV,Reporter - Digital,Graphic Designer  TV,Graphic Designer - Digital,Reporter - Print,Copy Editor,Graphic Designer - Print,Developer,Journalist","InDesign,Illustrator,HTML,JavaScript",Hired
+d_ep1_sp2_emp2,,Distribution,Growth,Associate Producer,Evening,"Reporter - TV,Anchor,Developer,Journalist,Graphic Designer - Digital,Graphic Designer  TV,Reporter - Digital","HTML,JavaScript,InDesign,CSS",Hired
+d_ep1_sp2,,Distribution,Growth,Chief Producer,Evening,"Developer,Reporter - Digital,Graphic Designer - Print,Anchor,Journalist,Graphic Designer - Digital","InDesign,HTML,CSS,JavaScript",Hired
+d_ep1_sp3_emp1,,Distribution,Growth,Associate Producer,Morning,"Journalist,Graphic Designer  TV,Graphic Designer - Print,Developer,Reporter - TV,Copy Editor,Graphic Designer - Digital,Reporter - Print,Reporter - Digital,Anchor","HTML,Illustrator,Photoshop,CSS",Hired
+d_ep1_sp3_emp2,,Distribution,Growth,Assistant Producer,Evening,"Graphic Designer - Digital,Journalist,Graphic Designer  TV,Reporter - Print,Graphic Designer - Print,Anchor,Developer,Reporter - Digital,Copy Editor","CSS,Illustrator,InDesign,JavaScript",Hired
+d_ep1_sp3,,Distribution,Growth,Chief Producer,Evening,"Reporter - Print,Anchor,Graphic Designer - Print,Developer,Copy Editor,Reporter - Digital,Graphic Designer - Digital,Graphic Designer  TV,Journalist",Illustrator,Hired
+d_ep1,,Distribution,Growth,Executive Producer,Evening,"Reporter - Digital,Graphic Designer  TV,Graphic Designer - Digital","HTML,CSS",Hired
+d_ep2_sp1_emp1,,Distribution,Ads,Trainee Producer,Morning,Graphic Designer - Print,"HTML,InDesign",Hired
+d_ep2_sp1_emp2,,Distribution,Ads,Producer,Graveyard,"Graphic Designer - Print,Graphic Designer  TV,Graphic Designer - Digital,Reporter - Print,Anchor","HTML,Illustrator",Hired
+d_ep2_sp1,,Distribution,Ads,Chief Producer,Evening,"Anchor,Graphic Designer - Print,Reporter - TV,Graphic Designer - Digital,Journalist,Reporter - Print,Graphic Designer  TV,Reporter - Digital,Copy Editor,Developer","HTML,JavaScript,CSS,InDesign",Hired
+d_ep2_sp2_emp1,,Distribution,Ads,Assistant Producer,Morning,"Journalist,Reporter - Digital,Graphic Designer  TV,Copy Editor,Reporter - Print","InDesign,HTML,JavaScript,Photoshop,CSS,Illustrator",Hired
+d_ep2_sp2_emp2,,Distribution,Ads,Assistant Producer,Graveyard,Graphic Designer  TV,"HTML,JavaScript",Hired
+d_ep2_sp2,,Distribution,Ads,Senior Producer,Morning,"Graphic Designer  TV,Graphic Designer - Digital","InDesign,Photoshop,JavaScript,Illustrator",Hired
+d_ep2_sp3_emp1,,Distribution,Ads,Producer,Morning,"Graphic Designer - Digital,Graphic Designer  TV,Reporter - TV,Journalist","InDesign,HTML,CSS,JavaScript,Photoshop",Hired
+d_ep2_sp3_emp2,,Distribution,Ads,Assistant Producer,Morning,"Developer,Reporter - Digital,Copy Editor,Graphic Designer - Digital,Graphic Designer  TV,Journalist","HTML,Illustrator,Photoshop,InDesign",Hired
+d_ep2_sp3,,Distribution,Ads,Senior Producer,Evening,Copy Editor,"Photoshop,CSS,JavaScript,InDesign",Hired
+d_ep2,,Distribution,Ads,Executive Producer,Graveyard,"Reporter - Digital,Copy Editor,Anchor,Graphic Designer  TV,Graphic Designer - Digital,Journalist,Graphic Designer - Print","Illustrator,HTML",Hired
+d_ep3_sp1_emp1,,Distribution,Events,Trainee Producer,Evening,Reporter - Print,JavaScript,Hired
+d_ep3_sp1_emp2,,Distribution,Events,Trainee Producer,Evening,"Graphic Designer - Digital,Copy Editor,Reporter - Digital,Reporter - TV,Developer,Graphic Designer - Print","InDesign,Photoshop",Hired
+d_ep3_sp1,,Distribution,Events,Senior Producer,Evening,"Reporter - Digital,Copy Editor,Reporter - Print","Photoshop,JavaScript,Illustrator",Hired
+d_ep3_sp2_emp1,,Distribution,Events,Producer,Graveyard,"Copy Editor,Reporter - Print",Illustrator,Hired
+d_ep3_sp2_emp2,,Distribution,Events,Producer,Morning,Journalist,"InDesign,Photoshop",Hired
+d_ep3_sp2,,Distribution,Events,Senior Producer,Graveyard,"Reporter - Print,Developer,Graphic Designer  TV,Reporter - TV","JavaScript,Illustrator,CSS",Hired
+d_ep3_sp3_emp1,,Distribution,Events,Assistant Producer,Morning,"Reporter - TV,Reporter - Print,Graphic Designer - Print,Graphic Designer - Digital,Copy Editor,Anchor,Journalist,Developer","HTML,JavaScript,Photoshop,CSS,Illustrator",Hired
+d_ep3_sp3_emp2,,Distribution,Events,Producer,Graveyard,"Graphic Designer  TV,Reporter - Digital,Copy Editor,Anchor,Reporter - Print,Graphic Designer - Print","Photoshop,HTML,CSS,InDesign,Illustrator",Hired
+d_ep3_sp3,,Distribution,Events,Senior Producer,Evening,"Graphic Designer - Digital,Developer,Anchor,Graphic Designer - Print","HTML,Photoshop,Illustrator",Hired
+d_ep3,,Distribution,Events,Executive Producer,Graveyard,"Reporter - Digital,Graphic Designer - Digital,Copy Editor,Reporter - Print,Reporter - TV,Graphic Designer - Print,Anchor","InDesign,JavaScript,Photoshop,CSS,HTML",Hired
+d_ep4_sp1_emp1,,Distribution,Campaigns,Associate Producer,Graveyard,"Journalist,Copy Editor","HTML,CSS,Photoshop,InDesign,JavaScript",Hired
+d_ep4_sp1_emp2,,Distribution,Campaigns,Producer,Graveyard,"Reporter - Print,Copy Editor,Developer,Graphic Designer  TV,Anchor,Graphic Designer - Digital,Reporter - TV,Reporter - Digital","HTML,JavaScript,Photoshop,CSS,InDesign",Hired
+d_ep4_sp1,,Distribution,Campaigns,Chief Producer,Graveyard,"Copy Editor,Reporter - Digital,Graphic Designer - Print,Reporter - TV,Journalist,Graphic Designer  TV,Graphic Designer - Digital,Anchor,Reporter - Print","HTML,CSS,Illustrator,JavaScript",Hired
+d_ep4_sp2_emp1,,Distribution,Campaigns,Trainee Producer,Morning,"Reporter - Digital,Graphic Designer - Print","Illustrator,InDesign,JavaScript,Photoshop,HTML,CSS",Hired
+d_ep4_sp2_emp2,,Distribution,Campaigns,Associate Producer,Graveyard,"Anchor,Reporter - Print,Reporter - TV","InDesign,Illustrator",Hired
+d_ep4_sp2,,Distribution,Campaigns,Senior Producer,Graveyard,"Reporter - Print,Graphic Designer - Print,Copy Editor","Photoshop,Illustrator,InDesign,CSS,HTML",Hired
+d_ep4_sp3_emp1,,Distribution,Campaigns,Trainee Producer,Morning,Graphic Designer - Print,InDesign,Hired
+d_ep4_sp3_emp2,,Distribution,Campaigns,Assistant Producer,Evening,"Graphic Designer - Print,Reporter - Print,Reporter - TV,Reporter - Digital,Graphic Designer - Digital,Graphic Designer  TV","Photoshop,CSS,HTML,InDesign,Illustrator",Hired
+d_ep4_sp3,,Distribution,Campaigns,Senior Producer,Morning,"Journalist,Graphic Designer - Digital,Reporter - TV,Graphic Designer  TV","JavaScript,CSS,Illustrator,InDesign,HTML",Hired
+d_ep4,,Distribution,Campaigns,Executive Producer,Graveyard,"Graphic Designer - Digital,Journalist","Photoshop,JavaScript",Hired
+d_ep5_sp1_emp1,,Distribution,Engagement,Producer,Evening,Copy Editor,"CSS,Photoshop",Hired
+d_ep5_sp1_emp2,,Distribution,Engagement,Assistant Producer,Evening,"Graphic Designer - Print,Developer,Journalist,Graphic Designer  TV,Reporter - Print,Copy Editor","Photoshop,InDesign,JavaScript,CSS,HTML",Hired
+d_ep5_sp1,,Distribution,Engagement,Senior Producer,Graveyard,Reporter - TV,"HTML,JavaScript,CSS,InDesign",Hired
+d_ep5_sp2_emp1,,Distribution,Engagement,Producer,Graveyard,Reporter - Print,"InDesign,HTML,Photoshop,CSS,Illustrator,JavaScript",Hired
+d_ep5_sp2_emp2,,Distribution,Engagement,Associate Producer,Morning,"Graphic Designer - Digital,Reporter - Print,Graphic Designer - Print,Anchor","JavaScript,CSS",Hired
+d_ep5_sp2,,Distribution,Engagement,Senior Producer,Morning,"Copy Editor,Reporter - TV,Developer,Graphic Designer  TV,Graphic Designer - Digital,Graphic Designer - Print,Reporter - Digital,Reporter - Print","JavaScript,CSS",Hired
+d_ep5_sp3_emp1,,Distribution,Engagement,Associate Producer,Morning,"Copy Editor,Graphic Designer - Digital","JavaScript,Illustrator,Photoshop,CSS,InDesign,HTML",Hired
+d_ep5_sp3_emp2,,Distribution,Engagement,Assistant Producer,Morning,"Reporter - Print,Graphic Designer - Digital,Journalist,Copy Editor,Reporter - Digital,Developer,Anchor,Graphic Designer - Print,Reporter - TV,Graphic Designer  TV","JavaScript,HTML,Illustrator,Photoshop,CSS",Hired
+d_ep5_sp3,,Distribution,Engagement,Senior Producer,Evening,Developer,"HTML,InDesign,CSS,Illustrator",Hired
+d_ep5,,Distribution,Engagement,Executive Producer,Morning,"Reporter - TV,Graphic Designer - Digital,Reporter - Digital,Graphic Designer - Print,Journalist,Reporter - Print","Illustrator,JavaScript,InDesign",Hired
+d_ep6_sp1_emp1,,Distribution,Seeding,Trainee Producer,Morning,"Journalist,Graphic Designer - Digital,Copy Editor,Reporter - TV,Graphic Designer  TV","Photoshop,HTML",Hired
+d_ep6_sp1_emp2,,Distribution,Seeding,Associate Producer,Graveyard,"Reporter - Print,Anchor,Graphic Designer - Print",InDesign,Hired
+d_ep6_sp1,,Distribution,Seeding,Senior Producer,Morning,"Reporter - TV,Anchor,Developer,Reporter - Digital,Graphic Designer  TV,Graphic Designer - Print,Graphic Designer - Digital","Photoshop,HTML,CSS",Hired
+d_ep6_sp2_emp1,,Distribution,Seeding,Associate Producer,Evening,"Reporter - TV,Graphic Designer  TV,Copy Editor,Graphic Designer - Print","Illustrator,Photoshop,HTML",Hired
+d_ep6_sp2_emp2,,Distribution,Seeding,Trainee Producer,Evening,"Developer,Reporter - Digital,Graphic Designer - Digital,Graphic Designer - Print,Journalist,Reporter - TV","HTML,CSS,JavaScript",Hired
+d_ep6_sp2,,Distribution,Seeding,Chief Producer,Evening,"Graphic Designer  TV,Reporter - Digital","Illustrator,JavaScript,InDesign,CSS,Photoshop",Hired
+d_ep6_sp3_emp1,,Distribution,Seeding,Associate Producer,Morning,"Graphic Designer  TV,Developer,Reporter - TV,Journalist,Reporter - Digital","CSS,Illustrator,InDesign,Photoshop,HTML,JavaScript",Hired
+d_ep6_sp3_emp2,,Distribution,Seeding,Associate Producer,Evening,"Anchor,Copy Editor,Graphic Designer - Digital,Reporter - TV,Graphic Designer - Print,Reporter - Digital","HTML,Illustrator,CSS",Hired
+d_ep6_sp3,,Distribution,Seeding,Chief Producer,Evening,"Anchor,Graphic Designer  TV,Copy Editor,Graphic Designer - Digital,Reporter - Print,Reporter - TV,Journalist,Reporter - Digital,Graphic Designer - Print,Developer","Illustrator,InDesign,JavaScript,CSS,HTML,Photoshop",Hired
+d_ep6,,Distribution,Seeding,Executive Producer,Morning,"Journalist,Anchor","CSS,InDesign,Photoshop,JavaScript,HTML,Illustrator",Hired
+d_mp,,Distribution,,Managing Producer,Graveyard,"Graphic Designer - Print,Reporter - TV","CSS,JavaScript,Illustrator,Photoshop,HTML",Hiring

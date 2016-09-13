@@ -1,0 +1,21 @@
+%html
+  %head
+    %title Spade CMS
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    %meta{charset: "UTF-8"}
+  %body{"data-no-turbolink" => "true"}
+    / %nav.navbar.navbar-default.spade_navbar
+    /   .navbar-header
+    /     %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+    /       %span.sr-only Toggle navigation
+    /       %span.icon-bar
+    /       %span.icon-bar
+    /       %span.icon-bar
+    /     %a.navbar-brand{href: root_path} Spade CMS
+    :javascript
+      var base_path = "#{BASE_URL}";
+
+    = yield
+    = render partial: "layouts/validations_errors", locals: {config: config}

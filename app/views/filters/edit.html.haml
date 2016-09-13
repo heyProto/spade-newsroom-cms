@@ -1,0 +1,99 @@
+/ - skills = ["Anchor", "Copy Editor", "Developer", "Graphic Designer  TV", "Graphic Designer - Digital", "Graphic Designer - Print", "Journalist", "Reporter - Digital", "Reporter - Print", "Reporter - TV"]
+/ - toolset = ["CSS", "HTML", "Illustrator", "InDesign", "JavaScript", "Photoshop"]
+/ - availability = ["hired", "hiring"]
+/ - seniority = ["Assistant Producer", "Associate Producer", "Chief Producer", "Executive Producer", "Managing Producer", "Producer", "Senior Producer", "Trainee Producer"]
+/ - shifts = ["evening", "graveyard", "morning"]
+.main-div
+  .viz-area
+    = render partial: "layouts/floor_plan.svg"
+  .sidebar
+    .side-bar-content
+      %h4{style: "color:white;"} Filter Data
+      / .top-tabs
+      /   .single-tab.left-tab.active Data
+      /   .single-tab.right-tab= link_to "Permission", permissions_path
+      /   .single-tab.right-tab= link_to "Reference List", new_reference_list_path
+      .description
+        = simple_form_for(@desk, url: filter_path(@desk), method: :patch, role: "form") do |f|
+          = f.input :url_hex, required: true, as: :hidden, input_html: {value: @url_hex}
+          = f.input :seat_id, readonly: true
+          = f.input :hub, required: true, input_html: {value: @desk.hub} , readonly: true
+          = f.input :seniority, required: true, collection: @seniority, include_blank: false
+          = f.input :shifts, required: true, collection: @shifts, include_blank: false
+          = f.input :availability, required: true, collection: @availability, include_blank: false
+          = f.input :skills, required: true, as: :string, input_html: { class: "skills-tags" }
+          = f.input :toolset, required: true, as: :string, input_html: { class: "toolset-tags" }
+          = f.input :desk, required: true, input_html: {value: @desk.desk}, readonly: true
+          = f.submit 'Save', class: "btn btn-default pull-right"
+
+= javascript_include_tag "viewbox.js"
+:javascript
+  $(".spade-cms-table-no-highlight").attr("opacity", 0.1);
+  $(".connection").attr("opacity", 0.3);
+  var skills_list = #{@skills},
+    toolset = #{@toolset},
+    selected_skills = #{@desk.skills.split(",")},
+    selected_toolset = #{@desk.toolset.split(",")},
+    $skills_tag,
+    skills_tag,
+    $toolset_tag,
+    toolset_tag,
+    unavailable_seat_ids = #{@unavailable_seat_ids},
+    url_hex = "#{@url_hex}",
+    available_seat_ids = #{@available_seat_ids};
+
+  $(document).ready(function () {
+
+    markUsedSeats(available_seat_ids);
+    disableOnLoad(unavailable_seat_ids);
+
+    $(".spade-cms-table").on('click', function () {
+      var elem = $(this),
+        g = elem.parent("g"),
+        seat_id = g.attr("id");
+        window.location.href = base_path + "/manage-data/" + url_hex + "/" + seat_id + "/edit";
+    });
+
+    skills_list = skills_list.map(function (e) {
+      return { value: e}
+    });
+
+    toolset = toolset.map(function (e) {
+      return { value: e}
+    });
+
+
+    $skills_tag = $('.skills-tags').selectize({
+      valueField: 'value',
+      labelField: 'value',
+      searchField: 'value',
+      plugins: ['remove_button'],
+      delimiter: ',',
+      options: skills_list,
+      create: false
+    });
+
+    skills_tag = $skills_tag[0].selectize;
+
+    selected_skills.forEach(function (e) {
+      skills_tag.addItem(e);
+    })
+
+
+    $toolset_tag = $('.toolset-tags').selectize({
+      valueField: 'value',
+      labelField: 'value',
+      searchField: 'value',
+      plugins: ['remove_button'],
+      delimiter: ',',
+      options: toolset,
+      create: false
+    });
+
+    toolset_tag = $toolset_tag[0].selectize;
+
+    selected_toolset.forEach(function (e) {
+      toolset_tag.addItem(e);
+    });
+
+  });

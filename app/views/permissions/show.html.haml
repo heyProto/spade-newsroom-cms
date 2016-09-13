@@ -1,0 +1,64 @@
+.main-div
+  .viz-area
+    = render partial: "layouts/floor_plan.svg"
+  .sidebar
+    .side-bar-content
+      .top-tabs
+        %a{href: descriptions_path}
+          .single-tab.left-tab Data
+        .single-tab.right-tab.active Permission
+        %a{href: new_reference_list_path}
+          .single-tab.right-tab Reference List
+      .description
+        .card
+          .names-container
+            %h6 People Assigned
+            = @names.split(",").join(", ")
+          .url-container
+            .input-group
+              %span.input-group-addon.cpy-btns{"data-clipboard-target": "#copy_icon_1", style:"cursor:pointer;", title: "Click to copy to clipboard."}
+                %span.glyphicon.glyphicon-link{"aria-hidden" => "true"}
+              %input.form-control{"aria-describedby" => "basic-addon1",  id: "copy_icon_1", :placeholder => "Username", :type => "text", value: (BASE_URL + list_data_path) }
+        %br
+        %br
+        %h6 Seat level Permission
+        .seats-container
+          - @seat_ids.each do |s|
+            .seat-card{"data-seat-id": s}
+              %span= s
+              .iconic-links= link_to "Delete", delete_seat_permission_path(url_hex: @url_hex, seat_id: s),  method: :delete, data: { confirm: 'Are you sure?' }
+            .clearfix
+
+= javascript_include_tag "viewbox.js"
+:javascript
+  var clipboard = new Clipboard('.cpy-btns',{
+    target: function(trigger) {
+      trigger = $(trigger);
+      var id = trigger.attr("data-clipboard-target");
+      return $(id)[0];
+    }
+  });
+
+  clipboard.on('success', function(e) {
+    noty({text: "Copied!", type: "success", layout: "bottomRight", timeout: 500});
+  });
+
+  clipboard.on('error', function(e) {
+    noty({text: "Copy Failed", type: "error", layout: "bottomRight", timeout: 500});
+  });
+  $("#display_area").css("pointer-events", "none");
+  deHighlightAll();
+  var seat_ids = #{@seat_ids};
+  markUsedSeats(seat_ids);
+
+  $(".seat-card").on("mouseover", function (){
+    var seat_id = $(this).attr("data-seat-id"),
+      elem = $("#" + seat_id +" .spade-cms-table");
+    elem.attr("fill", "red");
+  })
+
+  $(".seat-card").on("mouseout", function (){
+    var seat_id = $(this).attr("data-seat-id"),
+      elem = $("#" + seat_id +" .spade-cms-table");
+    elem.attr("fill", "#ffffff");
+  })

@@ -1,0 +1,64 @@
+.main-div
+  .viz-area
+    = render partial: "layouts/floor_plan.svg"
+  .sidebar
+    .side-bar-content
+      .top-tabs
+        .single-tab.left-tab.active Data
+        %a{href: permissions_path}
+          .single-tab.right-tab Permission
+        %a{href: new_reference_list_path}
+          .single-tab.right-tab Reference List
+      .hint{style: "color:white;"} * Click on any of the table to view its data.
+      .iconic-links= link_to "Edit details", edit_description_path(seat_id: @desc.seat_id)
+      .clearfix
+      %br
+      .description
+        - if @desc.hub_description.present?
+          %h5{style: "color: white;"}= "#{@filter_data.hub} Hub"
+          .content= @desc.hub_description.html_safe
+        - if @desc.desk_description.present?
+          %h5{style: "color: white;"}= "#{@filter_data.desk} #{@filter_data.desk != 'Home Bureau' ? 'Desk' : ''}"
+          .content= @desc.desk_description.html_safe
+        - if @desc.role_description.present?
+          %h5{style: "color: white;"}Role description
+          .content= @desc.role_description.html_safe
+        - if @desc.persona_description.present?
+          %h5{style: "color: white;"}Persona description
+          .content= @desc.persona_description.html_safe
+        %br
+        %br
+= javascript_include_tag "viewbox.js"
+:javascript
+  deHighlightAll();
+  autoExpanTextAreas();
+  var seat_id = "#{@desc[:seat_id]}",
+    elem = $("#" + seat_id + " .spade-cms-table"),
+    chair = elem.parent().find(".chair");
+
+  elem.attr("data-bypass", "true");
+  chair.attr('data-bypass', "true");
+
+  elem.attr("data-og-opacity", 1);
+  chair.attr('data-og-opacity', 1);
+
+  elem.attr("opacity", 1);
+  chair.attr("opacity", 1);
+
+
+  $(".spade-cms-table").on('mouseenter', function () {
+    var elem = $(this),
+    chair = elem.parent().find(".chair");
+    elem.attr("opacity", 1);
+    chair.attr("opacity", 1);
+  });
+
+  $(".spade-cms-table").on('mouseleave', function () {
+    deHighlightAll();
+  });
+
+  $(".spade-cms-table").on('click', function () {
+    var element = $(this),
+      g = element.parent('g');
+    window.location.href = base_path + "/descriptions/" + g.attr("id") + "/details"
+  });

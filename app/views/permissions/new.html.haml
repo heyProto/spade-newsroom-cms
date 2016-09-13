@@ -1,0 +1,89 @@
+.main-div
+  .viz-area
+    = render partial: "layouts/floor_plan.svg"
+  .sidebar
+    .side-bar-content
+      .top-tabs
+        %a{href: descriptions_path}
+          .single-tab.left-tab Data
+        .single-tab.right-tab.active Permission
+        %a{href: new_reference_list_path}
+          .single-tab.right-tab Reference List
+      .description
+        .hint{style: "color:white;"} * Click on a table to assign permission to it. Keep selecting table to add permission on multiple table. Selecting one seat and assigning one name is mandatory.
+        = simple_form_for(@permission, url: permissions_path, method: :post, role: "form") do |f|
+          = f.input :seat_id, as: :hidden, input_html: { id: "seat_ids" } #collection: @unused_seat_id, input_html: { multiple: true, class: "seat-tags" }
+          = f.input :names, as: :string, input_html: {class: "name-tags"}
+          = f.submit 'Add', class: "btn btn-default pull-right"
+
+= javascript_include_tag "viewbox.js"
+:javascript
+  var unused = #{@unused_seat_id},
+    used_seats = #{@used_seats},
+    selected_seats = #{@seats_added};
+
+  $(document).ready(function () {
+
+    $(".chair").attr("opacity", 0.3);
+
+    $("#seat_ids").val(selected_seats);
+    disableOnLoad(used_seats);
+
+    //markUsedSeats(selected_seats);
+
+    $(".spade-cms-table").on('mouseenter', function () {
+      var element = $(this),
+        chair = element.parent().find(".chair");
+
+      if (element.attr("is_clicked") !== "yes") {
+        element.attr("data-og-opacity", element.attr("opacity"));
+        element.attr("opacity", 1);
+        chair.attr("opacity", 1);
+      }
+    });
+
+    $(".spade-cms-table").on('mouseleave', function () {
+      var element = $(this),
+        chair = element.parent().find(".chair");
+      if (element.attr("is_clicked") !== "yes") {
+        element.attr("opacity", element.attr('data-og-opacity'));
+        chair.attr("opacity", 0.3);
+      }
+    });
+
+    $(".spade-cms-table").on('click', function () {
+      var elem = $(this),
+        g = elem.parent("g"),
+        seat_id = g.attr("id"),
+        is_clicked = elem.attr("is_clicked");
+
+        if (is_clicked === "no" || is_clicked === undefined) {
+          elem.attr("is_clicked", "yes");
+          selected_seats.push(seat_id);
+        } else {
+          elem.attr("is_clicked", "no");
+          var index = selected_seats.indexOf(seat_id);
+          selected_seats.splice(index, 1);
+        }
+
+        $("#seat_ids").val(selected_seats);
+    });
+
+    $('.name-tags').selectize({
+      plugins: ['remove_button'],
+      delimiter: ',',
+      persist: false,
+      create: function(input) {
+          return {
+              value: input,
+              text: input
+          }
+      },
+      render: {
+          item: function(data, escape) {
+              return '<div>' + escape(data.text) + '</div>';
+          }
+      }
+    });
+
+  });

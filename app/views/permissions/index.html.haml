@@ -1,0 +1,78 @@
+.main-div
+  .viz-area
+    = render partial: "layouts/floor_plan.svg"
+  .sidebar
+    .side-bar-content
+      .top-tabs
+        %a{href: descriptions_path}
+          .single-tab.left-tab Data
+        .single-tab.right-tab.active Permission
+        %a{href: new_reference_list_path}
+          .single-tab.right-tab Reference List
+      .hint{style: "color:white;"} * Hover over the list items to see the tables under the permission.
+      .iconic-links= link_to "Master edit link", list_data_path(url_hex: ENV["MASTER_HEX"]), target: "_blank"
+      .iconic-links= link_to "Add Permissions", new_permission_path
+      .clearfix
+      %br
+      .description{style: "height: 75vh !important;overflow-y: auto;"}
+        - if !@permissions.present?
+          .hint No permissions added yet.
+        - else
+          - keys = @permissions.keys
+          - @permissions.each do |k, v|
+            - index = keys.index(k)
+            .card{"data-seat-id": v[:seat_ids].join(",")}
+              .link
+                .delete= link_to "Delete", permission_path(url_hex: v[:passphrase]),  method: :delete, data: { confirm: 'Are you sure?' }
+                .edit= link_to "Details", permission_path(url_hex: v[:passphrase])
+              .names-container
+                %h6 People Assigned
+                = v[:names].split(",").join(", ")
+              .url-container
+                .input-group
+                  %span.input-group-addon.cpy-btns{"data-clipboard-target": "#copy_icon_#{index}", style:"cursor:pointer;", title: "Click to copy to clipboard."}
+                    %span.glyphicon.glyphicon-link{"aria-hidden" => "true"}
+                  %input.form-control{"aria-describedby" => "basic-addon1", id: "copy_icon_#{index}", :placeholder => "Username", :type => "text", value: v[:url] }
+
+= javascript_include_tag "viewbox.js"
+:javascript
+  var clipboard = new Clipboard('.cpy-btns',{
+    target: function(trigger) {
+      trigger = $(trigger);
+      var id = trigger.attr("data-clipboard-target");
+      return $(id)[0];
+    }
+  });
+
+  clipboard.on('success', function(e) {
+    noty({text: "Copied!", type: "success", layout: "bottomRight", timeout: 500});
+  });
+
+  clipboard.on('error', function(e) {
+    noty({text: "Copy Failed", type: "error", layout: "bottomRight", timeout: 500});
+  });
+
+  $("#display_area").css("pointer-events", "none");
+  $(".card").on("mouseover", function (e) {
+    deHighlightAll();
+    var elem = $(this),
+      seat_ids = elem.attr("data-seat-id").split(","),
+      table,
+      og_color;
+
+    seat_ids.forEach(function (e) {
+      var elem = $("#" + e + " .spade-cms-table"),
+        chair = elem.parent().find(".chair"),
+        og_opacity = elem.attr("opacity");
+
+      if (!og_opacity) {
+        elem.attr("data-og-opacity", elem.attr("opacity"));
+      }
+      elem.attr("opacity", 1);
+      chair.attr("opacity", 1);
+    })
+  });
+
+  $(".card").on("mouseout", function (e) {
+    highlightAll();
+  });

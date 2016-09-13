@@ -1,0 +1,189 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:200,400';
+
+body{
+	margin: 0px;
+	font-family: arial;
+    background: -webkit-linear-gradient(#4487CE, #30319E);
+}
+
+.main-div{
+	width: 100%;
+	display: inline-block;
+}
+
+.viz-area{
+	height: 100vh;
+	/*background-color: white;*/
+	width: 75%;
+	float: left;
+	display: inline-block;
+}
+
+.sidebar{
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 25%;
+	float: left;
+	display: block;
+}
+
+.side-bar-content{
+	padding: 0px 10px;
+}
+
+.top-tabs{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.top-tabs .single-tab{
+    font-size: 12px;
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 3px 0px;
+    border: 1px solid transparent;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.description{
+    color: rgba(255,255,255,0.5);
+}
+
+.card{
+    padding: 5px 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card .edit{
+    float: right;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 11px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-top: 7px;
+    margin-right: 2px;
+}
+
+.card .delete{
+    float: right;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 11px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    margin-top: 7px;
+}
+
+.label-default{
+    margin-bottom: 5px;
+    display: inline-block;
+    background-color: rgba(0,0,0,0);
+    padding-left: 3px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    /*font-style: italic;*/
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0.5;
+    /*text-decoration: underline;*/
+}
+
+.card .edit a{
+    color: rgba(255,255,255,0.7);
+}
+
+.card .delete a{
+    color: rgba(255,255,255,0.7);
+}
+
+.form-group input{
+    background-color: rgba(0,0,0,0.2) !important;
+    border: 0px;
+    color: rgba(255,255,255,0.9);
+    font-size: 12px;
+}
+
+.form-group textarea{
+    background-color: rgba(0,0,0,0.2) !important;
+    border: 0px;
+    color: rgba(255,255,255,0.9);
+    font-size: 12px;
+}
+
+.single-tab a{
+    color: rgba(255,255,255,0.7);
+}
+
+.top-tabs .single-tab.left-tab{
+    border-radius: 3px 0px 0px 3px;
+}
+
+.top-tabs .single-tab.right-tab{
+    border-radius: 0px 3px 3px 0px;
+}
+
+.top-tabs a {
+    text-decoration: none;
+    color: white;
+}
+
+.slug-title{
+    color: white !important;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200 !important;
+    margin-bottom: 10px;
+}
+
+.top-tabs .single-tab.active{
+    font-size: 12px;
+    color: #2e3896 ;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.description .control-label{
+    font-size: 12px;
+    font-weight: 100 !important;
+}
+
+.description {
+    overflow: auto;
+    height: 90vh !important;
+}
+
+.iconic-links {
+    float: right;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 11px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+.iconic-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.table-iconic-link {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 11px;
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+
+.table-iconic-link a {
+    color: white;
+    text-decoration: none;
+}
