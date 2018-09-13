@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.3.3'
 
 gem 'rails', '4.2.5'
 gem 'pg'
@@ -13,11 +13,12 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'friendly_id'
 gem "nestful"
+gem 'dotenv'
 gem 'dotenv-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 gem 'rack-cors', :require => 'rack/cors'
-gem 'unicorn'
+gem 'puma'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
